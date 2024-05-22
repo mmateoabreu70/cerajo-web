@@ -1,0 +1,7 @@
+footer {
+  grid-column: 1 / 3;
+  grid-row: 3;
+  height: 90px;
+  background-color: #212D77;
+  color: white;
+}
