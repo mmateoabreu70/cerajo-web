@@ -1,6 +1,6 @@
 header {
-  grid-column: 1 / 3;
-  grid-row: 1;
-  background-color: #212D77;
-  color: white;
+  grid-area: header;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 50px;
 }

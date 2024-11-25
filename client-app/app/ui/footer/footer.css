@@ -1,7 +1,6 @@
 footer {
-  grid-column: 1 / 3;
-  grid-row: 3;
-  height: 90px;
-  background-color: #212D77;
-  color: white;
+  grid-area: footer;
+  background-color: lightgrey;
+  text-align: center;
+  line-height: 30px;
 }
