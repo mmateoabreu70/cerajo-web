@@ -6,11 +6,17 @@ import ProductosPage from './pages/ProductsPage';
 function App() {
   return (
     <BrowserRouter>
-      <header className="main-header">
-        <div className="logo">CERA</div>
-        <nav>
+      <header>
+        <div class="top-header">
+          <img src="logo.png" alt="Logo" class="logo" />
+          <input type="text" placeholder="¿Qué estás buscando?" class="search-box" />
+        </div>
+
+        <nav class="bottom-header">
           <Link to="/">Inicio</Link>
           <Link to="/productos">Productos</Link>
+          <Link to="#">Contacto</Link>
+          <Link to="#">OFERTAS</Link>
         </nav>
       </header>
       <Routes>
