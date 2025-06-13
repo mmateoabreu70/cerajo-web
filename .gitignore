@@ -1,0 +1,57 @@
+# ===== NODE / GENERAL =====
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== ENV FILES =====
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===== BUILD OUTPUT =====
+dist/
+build/
+coverage/
+*.lcov
+
+# ===== CLIENT (FRONTEND) =====
+client/node_modules/
+client/.env*
+client/build/
+client/dist/
+client/coverage/
+
+# React/Vite specific
+client/.vite/
+client/.next/
+client/.parcel-cache/
+
+# Angular specific
+client/.angular/
+client/.angular/cache/
+
+# ===== SERVER (BACKEND) =====
+server/node_modules/
+server/.env*
+server/build/
+server/dist/
+server/coverage/
+
+# ===== SYSTEM FILES =====
+.DS_Store
+Thumbs.db
+*.swp
+
+# ===== IDEs & EDITORS =====
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
+*.log
