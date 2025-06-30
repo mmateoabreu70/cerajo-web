@@ -9,7 +9,7 @@ app.use(express.json());
 let productos = [
   {
     id: 1,
-    nombre: "Jarrón Oriental Aislado"
+    nombre: "Jarrón Oriental Aislado",
     imagen: "https://tse1.mm.bing.net/th/id/OIP.17r0rFVZ0cknykbsEx3GAAHaHa?pid=Api",
     ambient: "https://tse3.mm.bing.net/th/id/OIP.Ispe_D5DN3_Gr4KGBAJItgHaLH?pid=Api"
   },

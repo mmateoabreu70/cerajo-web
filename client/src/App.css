@@ -17,27 +17,62 @@ body {
   background: #f4f1ee;
 }
 
-.main-header {
+header {
+  background-color: #2B367C;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #7b4b34;
-  padding: 1rem 2rem;
-  color: white;
 }
 
-.logo {
-  font-size: 1.5rem;
+.logo-area img {
+  height: 65px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  /* margin-left: 1.5rem; */
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-links .offer-button {
+  color: #E9642C;
+}
+
+.nav-links .search-button {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-links .nav-active {
   font-weight: bold;
 }
 
-nav a {
-  margin-left: 1.5rem;
-  color: white;
-  text-decoration: none;
-  font-weight: 500;
-}
+/* 
 
 nav a:hover {
   text-decoration: underline;
-}
+} */

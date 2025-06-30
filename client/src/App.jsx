@@ -1,23 +1,28 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
 import LandingPage from './pages/LandingPage';
 import ProductosPage from './pages/ProductsPage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
+  const navIsActive = ({ isActive }) => isActive ? "nav-active" : "";
+
   return (
     <BrowserRouter>
       <header>
-        <div class="top-header">
-          <img src="logo.png" alt="Logo" class="logo" />
-          <input type="text" placeholder="¿Qué estás buscando?" class="search-box" />
+        <div className='wrapper header-content'>
+          <div className="logo-area">
+            <img src="/main-logo.png" alt="Cerajo Logo" />
+          </div>
+          <nav className="nav-links">
+            <NavLink className={navIsActive} to="/">Inicio</NavLink>
+            <NavLink className={navIsActive} to="/productos">Productos</NavLink>
+            <NavLink className={navIsActive} to="/contacto">Contacto</NavLink>
+            <NavLink className="offer-button" to="/oferta">OFERTAS!</NavLink>
+            <button className="search-button"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+          </nav>
         </div>
-
-        <nav class="bottom-header">
-          <Link to="/">Inicio</Link>
-          <Link to="/productos">Productos</Link>
-          <Link to="#">Contacto</Link>
-          <Link to="#">OFERTAS</Link>
-        </nav>
       </header>
       <Routes>
         <Route path="/" element={<LandingPage />} />
