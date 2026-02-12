@@ -1,25 +1,26 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import ProductCard from '../components/ProductCard';
+import ProductCard from '../components/product-card/ProductCard';
 import '../styles/ProductsPage.css';
 
 export default function ProductosPage() {
-  const [productos, setProductos] = useState([]);
+  const [products, setProducts] = useState([]);
 
   useEffect(() => {
     axios.get('http://localhost:5000/api/productos')
       .then(res => { 
         console.log(res.data)
-        setProductos(res.data)
+        setProducts(res.data)
       });
   }, []);
 
   return (
-    <div className="productos-page">
-      <h2>Nuestros Productos</h2>
-      <div className="grid">
-        {productos.map(p => (
-          <ProductCard key={p.id} product={p} />
+    <div className="catalog-container">
+      <h2>Catálogo de Productos</h2>
+
+      <div className="product-grid">
+        {products.map(product => (
+          <ProductCard key={product.id} product={product} />
         ))}
       </div>
     </div>

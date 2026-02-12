@@ -1,7 +1,7 @@
-.productos-page {
+/* .productos-page {
   padding: 2rem;
   text-align: center;
-  font-family: 'Segoe UI', sans-serif;
+  
 }
 
 .grid {
@@ -9,4 +9,23 @@
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   margin-top: 2rem;
+} */
+
+h2 {
+  color: #F3672A;
+}
+
+.catalog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  /* margin-top: 2rem; */
+  align-items: stretch;
 }
