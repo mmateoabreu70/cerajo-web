@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "name": "Jarrón Oriental Aislado",
+    "image": "https://picsum.photos/seed/cerajo-001/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-001p/400/600",
+    "price": 389.5,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 2,
+    "name": "Taza de Cerámica Esmaltada",
+    "image": "https://picsum.photos/seed/cerajo-002/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-002p/400/600",
+    "price": 129.99,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 169.99
+  },
+  {
+    "id": 3,
+    "name": "Plato Decorativo Minimalista",
+    "image": "https://picsum.photos/seed/cerajo-003/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-003p/400/600",
+    "price": 210.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 4,
+    "name": "Maceta Artesanal Terracota",
+    "image": "https://picsum.photos/seed/cerajo-004/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-004p/400/600",
+    "price": 275.75,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 320.5
+  },
+  {
+    "id": 5,
+    "name": "Florero Vintage de Barro",
+    "image": "https://picsum.photos/seed/cerajo-005/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-005p/400/600",
+    "price": 499.9,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 6,
+    "name": "Cuenco Rústico Hecho a Mano",
+    "image": "https://picsum.photos/seed/cerajo-006/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-006p/400/600",
+    "price": 145.25,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 7,
+    "name": "Juego de Platos Mediterráneos",
+    "image": "https://picsum.photos/seed/cerajo-007/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-007p/400/600",
+    "price": 899.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 1049.0
+  },
+  {
+    "id": 8,
+    "name": "Tetera Clásica de Porcelana",
+    "image": "https://picsum.photos/seed/cerajo-008/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-008p/400/600",
+    "price": 560.6,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 9,
+    "name": "Jarrón Moderno Azul Cobalto",
+    "image": "https://picsum.photos/seed/cerajo-009/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-009p/400/600",
+    "price": 640.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 799.99
+  },
+  {
+    "id": 10,
+    "name": "Set de Tazas Nórdicas",
+    "image": "https://picsum.photos/seed/cerajo-010/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-010p/400/600",
+    "price": 320.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 11,
+    "name": "Plato Hondo Esmaltado",
+    "image": "https://picsum.photos/seed/cerajo-011/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-011p/400/600",
+    "price": 110.5,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 12,
+    "name": "Maceta Geométrica para Interior",
+    "image": "https://picsum.photos/seed/cerajo-012/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-012p/400/600",
+    "price": 245.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 299.0
+  },
+  {
+    "id": 13,
+    "name": "Azulejo Decorativo Andaluz",
+    "image": "https://picsum.photos/seed/cerajo-013/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-013p/400/600",
+    "price": 95.99,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 14,
+    "name": "Bandeja de Cerámica con Relieve",
+    "image": "https://picsum.photos/seed/cerajo-014/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-014p/400/600",
+    "price": 310.75,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 15,
+    "name": "Jarrón Alto Estilo Japandi",
+    "image": "https://picsum.photos/seed/cerajo-015/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-015p/400/600",
+    "price": 720.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 890.0
+  },
+  {
+    "id": 16,
+    "name": "Portavelas Cerámico Blanco",
+    "image": "https://picsum.photos/seed/cerajo-016/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-016p/400/600",
+    "price": 78.5,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 17,
+    "name": "Cuenco Grande para Ensalada",
+    "image": "https://picsum.photos/seed/cerajo-017/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-017p/400/600",
+    "price": 260.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 18,
+    "name": "Juego de Vajilla Pastel",
+    "image": "https://picsum.photos/seed/cerajo-018/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-018p/400/600",
+    "price": 1250.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 1499.0
+  },
+  {
+    "id": 19,
+    "name": "Plato de Postre con Borde Dorado",
+    "image": "https://picsum.photos/seed/cerajo-019/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-019p/400/600",
+    "price": 85.25,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 20,
+    "name": "Tazón para Sopa Estilo Ramen",
+    "image": "https://picsum.photos/seed/cerajo-020/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-020p/400/600",
+    "price": 140.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 175.0
+  },
+  {
+    "id": 21,
+    "name": "Jarrón Texturizado Arena",
+    "image": "https://picsum.photos/seed/cerajo-021/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-021p/400/600",
+    "price": 455.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 22,
+    "name": "Maceta Colgante Boho",
+    "image": "https://picsum.photos/seed/cerajo-022/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-022p/400/600",
+    "price": 190.99,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 240.0
+  },
+  {
+    "id": 23,
+    "name": "Plato Llano Mate Negro",
+    "image": "https://picsum.photos/seed/cerajo-023/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-023p/400/600",
+    "price": 98.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 24,
+    "name": "Taza con Asa Grande para Café",
+    "image": "https://picsum.photos/seed/cerajo-024/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-024p/400/600",
+    "price": 115.5,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 25,
+    "name": "Bowl Pequeño con Motivos Azules",
+    "image": "https://picsum.photos/seed/cerajo-025/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-025p/400/600",
+    "price": 72.25,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 92.25
+  },
+  {
+    "id": 26,
+    "name": "Jarrón Cilíndrico Verde Oliva",
+    "image": "https://picsum.photos/seed/cerajo-026/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-026p/400/600",
+    "price": 510.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 650.0
+  },
+  {
+    "id": 27,
+    "name": "Plato Ovalado para Servir",
+    "image": "https://picsum.photos/seed/cerajo-027/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-027p/400/600",
+    "price": 230.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 28,
+    "name": "Tetera Minimalista Gris",
+    "image": "https://picsum.photos/seed/cerajo-028/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-028p/400/600",
+    "price": 610.25,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 29,
+    "name": "Set de Cuencos Apilables",
+    "image": "https://picsum.photos/seed/cerajo-029/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-029p/400/600",
+    "price": 420.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 520.0
+  },
+  {
+    "id": 30,
+    "name": "Maceta con Plato Drenaje",
+    "image": "https://picsum.photos/seed/cerajo-030/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-030p/400/600",
+    "price": 205.5,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 31,
+    "name": "Jarrón con Acabado Mármol",
+    "image": "https://picsum.photos/seed/cerajo-031/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-031p/400/600",
+    "price": 780.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 940.0
+  },
+  {
+    "id": 32,
+    "name": "Plato Hondito para Tapas",
+    "image": "https://picsum.photos/seed/cerajo-032/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-032p/400/600",
+    "price": 65.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 33,
+    "name": "Taza Texturizada Color Crema",
+    "image": "https://picsum.photos/seed/cerajo-033/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-033p/400/600",
+    "price": 105.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 34,
+    "name": "Bandeja Rectangular de Servicio",
+    "image": "https://picsum.photos/seed/cerajo-034/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-034p/400/600",
+    "price": 280.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 350.0
+  },
+  {
+    "id": 35,
+    "name": "Azulejo Vintage Floral",
+    "image": "https://picsum.photos/seed/cerajo-035/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-035p/400/600",
+    "price": 88.75,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 36,
+    "name": "Jarrón Bajo Estilo Escandinavo",
+    "image": "https://picsum.photos/seed/cerajo-036/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-036p/400/600",
+    "price": 360.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 37,
+    "name": "Maceta Grande Exterior",
+    "image": "https://picsum.photos/seed/cerajo-037/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-037p/400/600",
+    "price": 980.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 1150.0
+  },
+  {
+    "id": 38,
+    "name": "Plato de Cena con Salpicado",
+    "image": "https://picsum.photos/seed/cerajo-038/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-038p/400/600",
+    "price": 120.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 150.0
+  },
+  {
+    "id": 39,
+    "name": "Cuenco para Cereal Mate",
+    "image": "https://picsum.photos/seed/cerajo-039/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-039p/400/600",
+    "price": 90.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 40,
+    "name": "Porta Incienso Cerámico",
+    "image": "https://picsum.photos/seed/cerajo-040/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-040p/400/600",
+    "price": 55.5,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 41,
+    "name": "Jarrón Ánfora Clásica",
+    "image": "https://picsum.photos/seed/cerajo-041/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-041p/400/600",
+    "price": 850.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 990.0
+  },
+  {
+    "id": 42,
+    "name": "Set de Tazas con Plato",
+    "image": "https://picsum.photos/seed/cerajo-042/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-042p/400/600",
+    "price": 410.75,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 43,
+    "name": "Plato de Aperitivos Tricolor",
+    "image": "https://picsum.photos/seed/cerajo-043/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-043p/400/600",
+    "price": 160.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 210.0
+  },
+  {
+    "id": 44,
+    "name": "Maceta Pequeña Bonsái",
+    "image": "https://picsum.photos/seed/cerajo-044/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-044p/400/600",
+    "price": 135.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 45,
+    "name": "Jarrón de Mesa Color Terracota",
+    "image": "https://picsum.photos/seed/cerajo-045/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-045p/400/600",
+    "price": 330.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 46,
+    "name": "Cuenco con Borde Ondulado",
+    "image": "https://picsum.photos/seed/cerajo-046/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-046p/400/600",
+    "price": 115.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 145.0
+  },
+  {
+    "id": 47,
+    "name": "Bandeja Circular para Picoteo",
+    "image": "https://picsum.photos/seed/cerajo-047/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-047p/400/600",
+    "price": 240.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 48,
+    "name": "Azulejo Geométrico Moderno",
+    "image": "https://picsum.photos/seed/cerajo-048/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-048p/400/600",
+    "price": 102.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 49,
+    "name": "Taza Baja para Espresso",
+    "image": "https://picsum.photos/seed/cerajo-049/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-049p/400/600",
+    "price": 59.99,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 79.99
+  },
+  {
+    "id": 50,
+    "name": "Jarrón con Pintura a Mano",
+    "image": "https://picsum.photos/seed/cerajo-050/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-050p/400/600",
+    "price": 690.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 820.0
+  },
+  {
+    "id": 51,
+    "name": "Plato de Sushi Estilo Zen",
+    "image": "https://picsum.photos/seed/cerajo-051/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-051p/400/600",
+    "price": 140.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 52,
+    "name": "Cuenco para Frutas Grande",
+    "image": "https://picsum.photos/seed/cerajo-052/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-052p/400/600",
+    "price": 310.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 385.0
+  },
+  {
+    "id": 53,
+    "name": "Maceta con Acabado Cemento",
+    "image": "https://picsum.photos/seed/cerajo-053/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-053p/400/600",
+    "price": 260.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 54,
+    "name": "Plato de Pasta Profundo",
+    "image": "https://picsum.photos/seed/cerajo-054/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-054p/400/600",
+    "price": 135.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 170.0
+  },
+  {
+    "id": 55,
+    "name": "Tetera con Infusor Integrado",
+    "image": "https://picsum.photos/seed/cerajo-055/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-055p/400/600",
+    "price": 740.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 56,
+    "name": "Portavelas Doble Esmaltado",
+    "image": "https://picsum.photos/seed/cerajo-056/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-056p/400/600",
+    "price": 120.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 57,
+    "name": "Jarrón con Diseño Abstracto",
+    "image": "https://picsum.photos/seed/cerajo-057/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-057p/400/600",
+    "price": 610.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 760.0
+  },
+  {
+    "id": 58,
+    "name": "Bandeja para Quesos Artesanal",
+    "image": "https://picsum.photos/seed/cerajo-058/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-058p/400/600",
+    "price": 295.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 59,
+    "name": "Azulejo Rústico Terracota",
+    "image": "https://picsum.photos/seed/cerajo-059/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-059p/400/600",
+    "price": 70.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 60,
+    "name": "Cuenco con Esmalte Reactivo",
+    "image": "https://picsum.photos/seed/cerajo-060/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-060p/400/600",
+    "price": 155.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 199.0
+  },
+  {
+    "id": 61,
+    "name": "Plato para Tacos Ovalado",
+    "image": "https://picsum.photos/seed/cerajo-061/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-061p/400/600",
+    "price": 120.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 62,
+    "name": "Maceta con Patrón de Rayas",
+    "image": "https://picsum.photos/seed/cerajo-062/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-062p/400/600",
+    "price": 215.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 265.0
+  },
+  {
+    "id": 63,
+    "name": "Jarrón Botella Azul Marino",
+    "image": "https://picsum.photos/seed/cerajo-063/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-063p/400/600",
+    "price": 520.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 64,
+    "name": "Taza con Efecto Granulado",
+    "image": "https://picsum.photos/seed/cerajo-064/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-064p/400/600",
+    "price": 99.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 125.0
+  },
+  {
+    "id": 65,
+    "name": "Plato de Entrada Mate Verde",
+    "image": "https://picsum.photos/seed/cerajo-065/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-065p/400/600",
+    "price": 92.5,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 66,
+    "name": "Cuenco para Snacks con Asa",
+    "image": "https://picsum.photos/seed/cerajo-066/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-066p/400/600",
+    "price": 135.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 67,
+    "name": "Jarrón de Piso Alto",
+    "image": "https://picsum.photos/seed/cerajo-067/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-067p/400/600",
+    "price": 1490.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 1699.0
+  },
+  {
+    "id": 68,
+    "name": "Azulejo Blanco con Relieve",
+    "image": "https://picsum.photos/seed/cerajo-068/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-068p/400/600",
+    "price": 78.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 69,
+    "name": "Bandeja de Postres Ovalada",
+    "image": "https://picsum.photos/seed/cerajo-069/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-069p/400/600",
+    "price": 220.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 275.0
+  },
+  {
+    "id": 70,
+    "name": "Maceta Hexagonal Moderna",
+    "image": "https://picsum.photos/seed/cerajo-070/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-070p/400/600",
+    "price": 245.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 71,
+    "name": "Jarrón con Acabado Brillante",
+    "image": "https://picsum.photos/seed/cerajo-071/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-071p/400/600",
+    "price": 540.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 690.0
+  },
+  {
+    "id": 72,
+    "name": "Taza Alta para Latte",
+    "image": "https://picsum.photos/seed/cerajo-072/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-072p/400/600",
+    "price": 125.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 73,
+    "name": "Plato Rectangular para Sushi",
+    "image": "https://picsum.photos/seed/cerajo-073/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-073p/400/600",
+    "price": 145.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 74,
+    "name": "Cuenco de Cocina Multiuso",
+    "image": "https://picsum.photos/seed/cerajo-074/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-074p/400/600",
+    "price": 170.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 215.0
+  },
+  {
+    "id": 75,
+    "name": "Portavelas Estilo Marroquí",
+    "image": "https://picsum.photos/seed/cerajo-075/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-075p/400/600",
+    "price": 95.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 120.0
+  },
+  {
+    "id": 76,
+    "name": "Jarrón Pequeño para Centro de Mesa",
+    "image": "https://picsum.photos/seed/cerajo-076/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-076p/400/600",
+    "price": 210.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 77,
+    "name": "Maceta Redonda Estilo Retro",
+    "image": "https://picsum.photos/seed/cerajo-077/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-077p/400/600",
+    "price": 185.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 78,
+    "name": "Plato de Pan con Textura",
+    "image": "https://picsum.photos/seed/cerajo-078/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-078p/400/600",
+    "price": 55.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 69.0
+  },
+  {
+    "id": 79,
+    "name": "Cuenco para Ramen Grande",
+    "image": "https://picsum.photos/seed/cerajo-079/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-079p/400/600",
+    "price": 190.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 80,
+    "name": "Bandeja para Desayuno",
+    "image": "https://picsum.photos/seed/cerajo-080/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-080p/400/600",
+    "price": 260.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 320.0
+  },
+  {
+    "id": 81,
+    "name": "Azulejo Azul Talavera",
+    "image": "https://picsum.photos/seed/cerajo-081/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-081p/400/600",
+    "price": 115.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 82,
+    "name": "Jarrón con Efecto Craquelado",
+    "image": "https://picsum.photos/seed/cerajo-082/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-082p/400/600",
+    "price": 580.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 720.0
+  },
+  {
+    "id": 83,
+    "name": "Maceta Cilíndrica Alta",
+    "image": "https://picsum.photos/seed/cerajo-083/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-083p/400/600",
+    "price": 340.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 410.0
+  },
+  {
+    "id": 84,
+    "name": "Plato de Servir con Asas",
+    "image": "https://picsum.photos/seed/cerajo-084/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-084p/400/600",
+    "price": 310.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 85,
+    "name": "Taza de Té con Relieve",
+    "image": "https://picsum.photos/seed/cerajo-085/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-085p/400/600",
+    "price": 95.5,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 86,
+    "name": "Cuenco Pequeño para Salsas",
+    "image": "https://picsum.photos/seed/cerajo-086/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-086p/400/600",
+    "price": 45.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 55.0
+  },
+  {
+    "id": 87,
+    "name": "Jarrón de Cerámica Blanca Mate",
+    "image": "https://picsum.photos/seed/cerajo-087/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-087p/400/600",
+    "price": 410.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 88,
+    "name": "Bandeja para Tapas Rectangular",
+    "image": "https://picsum.photos/seed/cerajo-088/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-088p/400/600",
+    "price": 215.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 89,
+    "name": "Azulejo con Patrón Enrejado",
+    "image": "https://picsum.photos/seed/cerajo-089/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-089p/400/600",
+    "price": 98.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 125.0
+  },
+  {
+    "id": 90,
+    "name": "Maceta con Textura de Piedra",
+    "image": "https://picsum.photos/seed/cerajo-090/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-090p/400/600",
+    "price": 280.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 91,
+    "name": "Jarrón Estilo Mediterráneo",
+    "image": "https://picsum.photos/seed/cerajo-091/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-091p/400/600",
+    "price": 760.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 920.0
+  },
+  {
+    "id": 92,
+    "name": "Taza Doble Pared Cerámica",
+    "image": "https://picsum.photos/seed/cerajo-092/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-092p/400/600",
+    "price": 155.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 93,
+    "name": "Plato de Cena Blanco Clásico",
+    "image": "https://picsum.photos/seed/cerajo-093/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-093p/400/600",
+    "price": 105.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 135.0
+  },
+  {
+    "id": 94,
+    "name": "Cuenco con Base Alta",
+    "image": "https://picsum.photos/seed/cerajo-094/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-094p/400/600",
+    "price": 180.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 95,
+    "name": "Bandeja Ondulada para Servir",
+    "image": "https://picsum.photos/seed/cerajo-095/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-095p/400/600",
+    "price": 260.0,
+    "isNew": false,
+    "discount": true,
+    "oldPrice": 315.0
+  },
+  {
+    "id": 96,
+    "name": "Azulejo Blanco Brillante",
+    "image": "https://picsum.photos/seed/cerajo-096/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-096p/400/600",
+    "price": 65.0,
+    "isNew": true,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 97,
+    "name": "Maceta Baja para Suculentas",
+    "image": "https://picsum.photos/seed/cerajo-097/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-097p/400/600",
+    "price": 99.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 98,
+    "name": "Jarrón Grande Color Marfil",
+    "image": "https://picsum.photos/seed/cerajo-098/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-098p/400/600",
+    "price": 990.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 1190.0
+  },
+  {
+    "id": 99,
+    "name": "Plato de Presentación Elegante",
+    "image": "https://picsum.photos/seed/cerajo-099/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-099p/400/600",
+    "price": 180.0,
+    "isNew": false,
+    "discount": false,
+    "oldPrice": 0
+  },
+  {
+    "id": 100,
+    "name": "Set de Cuencos Textura Lava",
+    "image": "https://picsum.photos/seed/cerajo-100/800/800",
+    "previewImage": "https://picsum.photos/seed/cerajo-100p/400/600",
+    "price": 520.0,
+    "isNew": true,
+    "discount": true,
+    "oldPrice": 650.0
+  }
+]

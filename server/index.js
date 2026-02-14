@@ -1,32 +1,31 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
+const products = require("./product-list.json");
 
 //Middlewares
 app.use(cors());
 app.use(express.json());
 
-let productos = [
-  {
-    id: 1,
-    nombre: "Jarrón Oriental Aislado",
-    imagen: "https://tse1.mm.bing.net/th/id/OIP.17r0rFVZ0cknykbsEx3GAAHaHa?pid=Api",
-    ambient: "https://tse3.mm.bing.net/th/id/OIP.Ispe_D5DN3_Gr4KGBAJItgHaLH?pid=Api"
-  },
-  {
-    id: 2,
-    nombre: "Conjunto Cerámico Blanco",
-    imagen: "https://tse2.mm.bing.net/th/id/OIP.t3yT89sNdtJKp6Co1em_ygHaHa?pid=Api",
-    ambient: "https://tse1.mm.bing.net/th/id/OIP.17r0rFVZ0cknykbsEx3GAAHaHa?pid=Api"
-  }
-];
-
+let productos = products;
 
 //Productos Route
 
 // GET
 app.get('/api/productos', (req, res) => {
-  res.json(productos);
+  const limit = Number(req.query.limit ?? 24);
+  const page = Number(req.query.page ?? 1); // 1-based
+  const start = (page - 1) * limit;
+
+  const items = productos.slice(start, start + limit);
+
+  res.json({
+    items,
+    total: productos.length,
+    page,
+    limit,
+    totalPages: Math.ceil(productos.length / limit),
+  });
 });
 
 // POST

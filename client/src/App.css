@@ -21,6 +21,7 @@ header {
   background-color: #2B367C;
   color: white;
   padding: 0.5rem 0;
+  position: relative;
 }
 
 .wrapper {
