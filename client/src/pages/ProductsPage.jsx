@@ -3,6 +3,7 @@ import { http } from '../lib/http';
 import ProductCard from '../components/product-card/ProductCard';
 import '../styles/ProductsPage.css';
 import { Paginator } from 'primereact/paginator';
+import EmptyState from '../components/empty-state/EmptyState';
 
 const PAGE_SIZE = 24;
 
@@ -10,7 +11,6 @@ export default function ProductosPage() {
   const [products, setProducts] = useState([]);
   const [total, setTotal] = useState(0);
 
-  // PrimeReact paginator usa first (offset)
   const [first, setFirst] = useState(0);
   const [rows, setRows] = useState(PAGE_SIZE);
 
@@ -21,8 +21,8 @@ export default function ProductosPage() {
       const fetchConfig = {
         url: '/productos',
         params: {
-          page: String(page),
-          limit: String(rows)
+          page: page,
+          limit: rows
         }
       }
 
@@ -43,7 +43,11 @@ export default function ProductosPage() {
 
   return (
     <div className="wrapper catalog-container">
-      <h2>Productos</h2>
+      <span className="counter">{total} resultados</span>
+      
+      {products.length === 0 && (
+        <EmptyState actionLabel="Ver productos" onAction={() => window.location.href = "/productos"} />
+      )}
 
       <div className="product-grid">
         {products.map(product => (
@@ -51,18 +55,20 @@ export default function ProductosPage() {
         ))}
       </div>
 
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        <Paginator
-          first={first}
-          rows={rows}
-          totalRecords={total}
-          rowsPerPageOptions={[12, 24, 48]}
-          onPageChange={(e) => {
-            setFirst(e.first);
-            setRows(e.rows);
-          }}
-        />
-      </div>
+      {products.length > 0 && (
+        <div className="paginator-container">
+          <Paginator
+            first={first}
+            rows={rows}
+            totalRecords={total}
+            rowsPerPageOptions={[12, 24, 48]}
+            onPageChange={(e) => {
+              setFirst(e.first);
+              setRows(e.rows);
+            }}
+          />
+        </div>
+      )}
     </div>
   );
 }

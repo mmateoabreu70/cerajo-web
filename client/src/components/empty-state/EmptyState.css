@@ -1,0 +1,62 @@
+.empty-container {
+  min-height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.empty-card {
+  text-align: center;
+  max-width: 460px;
+  padding: 50px 40px;
+  border-radius: 18px;
+  background: #ffffff;
+  /* box-shadow: 0 15px 35px rgba(0,0,0,0.08); */
+}
+
+/* círculo del icono */
+.empty-icon-wrapper {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-icon {
+  font-size: 42px;
+  color: #4f46e5;
+}
+
+.empty-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.empty-description {
+  color: #6b7280;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.empty-button {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.empty-button:hover {
+  background: #4338ca;
+  transform: translateY(-1px);
+}

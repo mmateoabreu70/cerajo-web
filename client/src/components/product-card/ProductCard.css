@@ -84,7 +84,8 @@
 
 .product-info h4 {
   font-size: 1rem;
-  margin-bottom: 0.5rem;
+  margin: 0.5rem 0;
+  color: #111;
 
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -92,20 +93,55 @@
   overflow: hidden;
 }
 
-.price {
-  color: #F26729;
-  /* font-weight: 600; */
-  font-size: 1rem;
-  margin: 0 !important;
-}
-
-.old-price {
-  text-decoration: line-through;
-  color: #888;
-  margin-right: 0.5rem !important;
-}
-
 .price-container {
   display: flex;
+  flex-direction: column;
+}
+
+.price-old {
+  color: #4b4b4b;
+  text-decoration: line-through;
+  font-size: 0.80rem;
+  font-weight: 700;
+}
+
+.price-row {
+  display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+.price-new { 
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #111;
+  display: flex;
+  align-items: baseline;
+}
+
+.price-new.is-discount {
+  color: #d40000;
+}
+
+.price-new .currency {
+  font-size: 12px;
+  margin-right: 1px;
+  position: relative;
+  top: -0.8rem;
+}
+
+.price-new .amount {
+  letter-spacing: 0.01rem;
+}
+
+.discount-tag.p-tag {
+  font-size: 10px;
+  padding: 4px 6px;
+  background-color: #d70000;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }

@@ -14,7 +14,7 @@ let productos = products;
 // GET
 app.get('/api/productos', (req, res) => {
   const limit = Number(req.query.limit ?? 24);
-  const page = Number(req.query.page ?? 1); // 1-based
+  const page = Number(req.query.page ?? 1);
   const start = (page - 1) * limit;
 
   const items = productos.slice(start, start + limit);
