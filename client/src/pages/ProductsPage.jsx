@@ -57,22 +57,22 @@ export default function ProductosPage() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
-
-        {products.length > 0 && (
-          <div className="paginator-container">
-            <Paginator
-              first={first}
-              rows={rows}
-              totalRecords={total}
-              rowsPerPageOptions={[12, 24, 48]}
-              onPageChange={(e) => {
-                setFirst(e.first);
-                setRows(e.rows);
-              }}
-            />
-          </div>
-        )}
       </div>
+
+      {products.length > 0 && (
+        <div className="wrapper paginator-container">
+          <Paginator
+            first={first}
+            rows={rows}
+            totalRecords={total}
+            rowsPerPageOptions={[12, 24, 48]}
+            onPageChange={(e) => {
+              setFirst(e.first);
+              setRows(e.rows);
+            }}
+          />
+        </div>
+      )}
     </>  
   );
 }
