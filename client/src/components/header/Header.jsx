@@ -22,7 +22,7 @@ export default function Header() {
           <NavLink className={navIsActive} to="/productos">Productos</NavLink>
           <NavLink className={navIsActive} to="/contacto">Contacto</NavLink>
           <NavLink className="offer-link" to="/ofertas">OFERTAS!</NavLink>
-          <button className="search-button"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+          <button className="search-button"><FontAwesomeIcon icon={faMagnifyingGlass} /></button>z
         </nav>
       </div>
     </header>

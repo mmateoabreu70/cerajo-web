@@ -1,0 +1,13 @@
+.breadcrumb-wrapper { 
+  padding: 0.5rem 0 0 0; 
+}
+
+.breadcrumb-wrapper .p-breadcrumb { 
+  background: transparent; 
+  border: 0; 
+  padding: 0.5rem 0; 
+}
+
+.p-breadcrumb .p-menuitem-link {
+  text-decoration: none;
+}

@@ -9,10 +9,12 @@ export default function LandingPage() {
     <>
       <section className='hero'>
         <div className='overlay'>
-          <div className='hero-content wrapper'>
-            <h1>DESCUBRE LA<br /> CERÁMICA PERFECTA<br />PARA TU ESPACIO</h1>
-            <p>Estilo, calidad y precio en un solo lugar</p>
-            <Link to='/productos' className='hero-button'>Explorar catálogo</Link>
+          <div className="wrapper">
+            <div className='hero-content'>
+              <h1>DESCUBRE LA<br /> CERÁMICA PERFECTA<br />PARA TU ESPACIO</h1>
+              <p>Estilo, calidad y precio en un solo lugar</p>
+              <Link to='/productos' className='hero-button'>Explorar catálogo</Link>
+            </div>
           </div>
         </div>
       </section>
