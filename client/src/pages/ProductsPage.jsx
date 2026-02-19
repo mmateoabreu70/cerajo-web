@@ -43,9 +43,9 @@ export default function ProductosPage() {
   }, [page, rows]);
 
   return (
-    <>
+    <div className="wrapper">
       <AppBreadcrumb />
-      <div className="wrapper catalog-container">
+      <div className="catalog-container">
         <span className="counter">{total} resultados</span>
         
         {products.length === 0 && (
@@ -60,7 +60,7 @@ export default function ProductosPage() {
       </div>
 
       {products.length > 0 && (
-        <div className="wrapper paginator-container">
+        <div className="paginator-container">
           <Paginator
             first={first}
             rows={rows}
@@ -73,6 +73,6 @@ export default function ProductosPage() {
           />
         </div>
       )}
-    </>  
+    </div>  
   );
 }

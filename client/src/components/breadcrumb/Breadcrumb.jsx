@@ -30,7 +30,7 @@ export default function AppBreadcrumb({ getProductName }) {
   );
   
   return (
-    <div className="wrapper breadcrumb-wrapper">
+    <div className="breadcrumb-wrapper">
       <BreadCrumb model={model} home={home} />
     </div>
   );
