@@ -5,12 +5,21 @@ import '../styles/ProductsPage.css';
 import { Paginator } from 'primereact/paginator';
 import EmptyState from '../components/empty-state/EmptyState';
 import AppBreadcrumb from '../components/breadcrumb/Breadcrumb';
+import { useSearchParams } from 'react-router-dom';
 
 const PAGE_SIZE = 24;
 
 export default function ProductosPage() {
+  const [searchParams] = useSearchParams();
+  const qFromUrl = searchParams.get("q") ?? "";
+
+  const [query, setQuery] = useState(qFromUrl);
   const [products, setProducts] = useState([]);
   const [total, setTotal] = useState(0);
+
+  useEffect(() => {
+    setQuery(qFromUrl);
+  }, [qFromUrl]);
 
   const [first, setFirst] = useState(0);
   const [rows, setRows] = useState(PAGE_SIZE);
@@ -27,12 +36,18 @@ export default function ProductosPage() {
         }
       }
 
+      if (query) {
+        fetchConfig.params.q = query;
+      }
+
       try {
         const res = await http(fetchConfig);
         const data = res.data;
 
         setProducts(data.items ?? []);
         setTotal(data.total ?? 0);
+
+        console.log("Productos cargados:", data);
       }
       catch (err) {
         throw new Error(`Error cargando productos: ${err}`)
@@ -40,11 +55,16 @@ export default function ProductosPage() {
     }
 
     load().catch(console.error);
-  }, [page, rows]);
+  }, [page, rows, query]);
 
   return (
     <div className="wrapper">
       <AppBreadcrumb />
+      
+      <div class="divider"></div>
+      
+      { query && <h1 className="q-text">Resultados para "{query}"</h1>}
+      
       <div className="catalog-container">
         <span className="counter">{total} resultados</span>
         

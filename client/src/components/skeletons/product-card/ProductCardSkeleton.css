@@ -1,0 +1,61 @@
+/* Skeleton base */
+.pc-skel {
+  border-radius: 18px;
+  background: #fff;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.pc-skel__img {
+  height: 240px;
+  background: rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+.pc-skel__body {
+  padding: 12px;
+  display: grid;
+  gap: 10px;
+}
+
+.pc-skel__line {
+  height: 12px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Variaciones de tamaño */
+.pc-skel__title { height: 18px; width: 85%; }
+.pc-skel__cat { width: 55%; }
+.pc-skel__price { height: 22px; width: 45%; border-radius: 999px; }
+
+/* Shimmer */
+.pc-skel__img::after,
+.pc-skel__line::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.65),
+    transparent
+  );
+  animation: pc-skel-shimmer 1.2s infinite;
+}
+
+@keyframes pc-skel-shimmer {
+  to { transform: translateX(100%); }
+}
+
+/* Respeta usuarios con reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .pc-skel__img::after,
+  .pc-skel__line::after {
+    animation: none;
+  }
+}

@@ -4,6 +4,7 @@ import ProductosPage from "./pages/ProductsPage";
 export const routesConfig = [
   {
     path: "/",
+    index: true,
     element: <LandingPage />,
     crumb: () => ({ label: "Inicio", to: "/" }),
   },
@@ -20,4 +21,9 @@ export const routesConfig = [
       // último normalmente sin "to"
     }),
   },
+  {
+    path: "/buscar",
+    element: <ProductosPage />,
+    crumb: () => ({ label: "Buscar" })
+  }
 ];

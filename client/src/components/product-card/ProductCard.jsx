@@ -15,7 +15,8 @@ export default function ProductCard({ product }) {
     name,
     previewImage,
     oldPrice,
-    price
+    price,
+    category
   } = product;
 
   const pct = hasDiscount ? Math.round(((oldPrice - price) / oldPrice) * 100) : 0;
@@ -61,6 +62,7 @@ export default function ProductCard({ product }) {
 
           <div className="product-info">
             <h4>{name}</h4>
+            <span className="product-category">{category}</span>
             
             <div className="price-container">
               { hasDiscount && (

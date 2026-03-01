@@ -1,8 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Squash as Hamburger } from 'hamburger-react'
 import './Header.css';
+import SearchBar from "../search-bar/SearchBar";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -32,14 +33,18 @@ export default function Header() {
   return (
     <header>
       <div className='wrapper header-content'>
-        <div class="brand-container">
-          <img src="/cerajo-icon.png" alt="Cerajo Logo" class="brand-logo" />
+        <Link className="home-link" to="/">
+          <div className="brand-container">
+            <img src="/cerajo-icon.png" alt="Cerajo Logo" class="brand-logo" />
 
-          <div class="brand-text">
-            <h1>CERAJO</h1>
-            <p>Calidad en cada pisada</p>
+            <div class="brand-text">
+              <h1>CERAJO</h1>
+              <span>Calidad en cada pisada</span>
+            </div>
           </div>
-        </div>
+        </Link>
+
+        <SearchBar className="header-search" />
         
         <div className="hamburger-wrap">
           <Hamburger toggled={open} toggle={setOpen} size={30} />

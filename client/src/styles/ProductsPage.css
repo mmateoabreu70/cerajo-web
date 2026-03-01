@@ -38,3 +38,10 @@ h2 {
   width: 100%;
   text-align: center;
 }
+
+.q-text {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #424242;
+  overflow-wrap: break-word;
+}

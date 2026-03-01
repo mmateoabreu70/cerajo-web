@@ -33,3 +33,13 @@ header {
 @media (width > 768px){
   .wrapper{ width: min(1400px, calc(100% - 48px)); } /* 24px por lado */
 }
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: #c1c1c1;
+  margin: 20px 0;
+  /* height: 1px;
+  background: linear-gradient(to right, transparent, #ff6a00, transparent);
+  margin: 20px 0; */
+}
