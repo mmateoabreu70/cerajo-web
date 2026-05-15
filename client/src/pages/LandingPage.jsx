@@ -5,37 +5,39 @@ import FeaturedProducts from '../sections/featured-products/FeaturedProducts';
 export default function LandingPage() {
   return (
     <>
-      <section className='hero'>
-        <div className='overlay'>
+      <section className="hero">
+        <div className="overlay">
           <div className="wrapper">
-            <div className='hero-content'>
+            <div className="hero-content">
               <h1>DESCUBRE LA<br /> CERÁMICA PERFECTA<br />PARA TU ESPACIO</h1>
               <p>Estilo, calidad y precio en un solo lugar</p>
-              <Link to='/productos' className='hero-button'>Explorar catálogo</Link>
+              <Link to="/productos" className="hero-button">Explorar catálogo</Link>
             </div>
           </div>
         </div>
       </section>
-      <section className='card-banner'>
-        <div className='card-container'>
-          <div className='card'>
-            <img src='./images/floor-icon.png' alt='floor icon' />
+
+      <section className="card-banner">
+        <div className="card-container">
+          <div className="card">
+            <img src="./images/floor-icon.png" alt="Pisos" />
             <span>Pisos</span>
           </div>
-          <div className='card'>
-            <img src='./images/shower-icon.png' alt='shower icon' />
+          <div className="card">
+            <img src="./images/shower-icon.png" alt="Baños" />
             <span>Baños</span>
           </div>
-          <div className='card'>
-            <img src='./images/kitchen-icon.png' alt='kitchen icon' />
+          <div className="card">
+            <img src="./images/kitchen-icon.png" alt="Cocinas" />
             <span>Cocinas</span>
           </div>
-          <div className='card'>
-            <img src='./images/exterior-icon.png' alt='exterior icon' />
+          <div className="card">
+            <img src="./images/exterior-icon.png" alt="Exterior" />
             <span>Exterior</span>
           </div>
         </div>
       </section>
+
       <FeaturedProducts />
     </>
   );

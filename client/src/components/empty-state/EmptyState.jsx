@@ -1,5 +1,5 @@
 import { FiSearch } from "react-icons/fi";
-import "./EmptyState.css"
+import "./EmptyState.css";
 
 export default function EmptyState({
   title = "No se encontraron productos",
@@ -10,7 +10,6 @@ export default function EmptyState({
   return (
     <div className="empty-container">
       <div className="empty-card">
-
         <div className="empty-icon-wrapper">
           <FiSearch className="empty-icon" />
         </div>

@@ -1,5 +1,8 @@
 import LandingPage from "./pages/LandingPage";
 import ProductosPage from "./pages/ProductsPage";
+import ProductDetailPage from "./pages/ProductDetailPage";
+import ContactPage from "./pages/ContactPage";
+import NotFoundPage from "./pages/NotFoundPage";
 
 export const routesConfig = [
   {
@@ -15,15 +18,28 @@ export const routesConfig = [
   },
   {
     path: "/productos/:id",
-    element: null,
+    element: <ProductDetailPage />,
     crumb: ({ params, getProductName }) => ({
-      label: getProductName(params.id) ?? `Producto ${params.id}`,
-      // último normalmente sin "to"
+      label: getProductName?.(params.id) ?? `Producto ${params.id}`,
     }),
+  },
+  {
+    path: "/ofertas",
+    element: <ProductosPage />,
+    crumb: () => ({ label: "Ofertas" }),
   },
   {
     path: "/buscar",
     element: <ProductosPage />,
-    crumb: () => ({ label: "Buscar" })
-  }
+    crumb: () => ({ label: "Buscar" }),
+  },
+  {
+    path: "/contacto",
+    element: <ContactPage />,
+    crumb: () => ({ label: "Contacto" }),
+  },
+  {
+    path: "*",
+    element: <NotFoundPage />,
+  },
 ];

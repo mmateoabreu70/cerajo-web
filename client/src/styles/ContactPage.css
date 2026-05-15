@@ -1,0 +1,46 @@
+.contact-page {
+  padding-bottom: 3rem;
+}
+
+.contact-layout {
+  background: #ffffff;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr minmax(280px, 0.6fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+  padding: 2rem;
+}
+
+.contact-layout h1 {
+  color: #1E3050;
+  margin-top: 0;
+}
+
+.contact-layout p {
+  color: #4b4b4b;
+  line-height: 1.6;
+  max-width: 620px;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-list a,
+.contact-list span {
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  color: #343d86;
+  padding: 0.85rem 1rem;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    padding: 1.25rem;
+  }
+}

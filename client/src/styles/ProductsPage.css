@@ -5,10 +5,6 @@
   margin-top: 2rem;
 } */
 
-h2 {
-  color: #F3672A;
-}
-
 .catalog-container {
   font-family: 'Segoe UI', sans-serif;
   margin-top: 1rem;
@@ -16,14 +12,14 @@ h2 {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
   gap: 1rem;
-  justify-content: center; /* Centrado horizontal */
+  justify-content: center;
 }
 
 .counter {
   display: block;
-  margin: 1rem 0;
+  margin-top: 0.4rem;
   color: #424242;
   font-weight: 500;
 }
@@ -39,9 +35,88 @@ h2 {
   text-align: center;
 }
 
-.q-text {
-  font-size: 2rem;
+.catalog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
   margin: 1rem 0;
+}
+
+.catalog-title {
+  font-size: 2rem;
+  margin: 0;
   color: #424242;
   overflow-wrap: break-word;
+}
+
+.clear-filters-button {
+  border: 1px solid #d7d7d7;
+  background: #ffffff;
+  color: #343d86;
+  border-radius: 8px;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.filters-panel {
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filters-panel label {
+  color: #424242;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.85rem;
+  font-weight: 600;
+  gap: 0.4rem;
+}
+
+.filters-panel select {
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+  min-height: 40px;
+  padding: 0 0.75rem;
+  background: #ffffff;
+  color: #222;
+}
+
+.checkbox-filter {
+  justify-content: end;
+}
+
+.checkbox-filter input {
+  width: 18px;
+  height: 18px;
+}
+
+.catalog-state {
+  background: #ffffff;
+  border-radius: 8px;
+  color: #343d86;
+  font-weight: 600;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .catalog-header {
+    flex-direction: column;
+  }
+
+  .filters-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-title {
+    font-size: 1.6rem;
+  }
 }

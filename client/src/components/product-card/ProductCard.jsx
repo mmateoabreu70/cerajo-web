@@ -52,9 +52,9 @@ export default function ProductCard({ product }) {
 
             <div className={`hover-actions ${hovered ? 'show' : ''}`}>
               <Button
-                icon="pi pi-shopping-cart"
-                label="Agregar"
-                className="p-button- p-button-sm"
+                icon="pi pi-eye"
+                label="Ver detalle"
+                className="p-button-sm"
               />
             </div>
 

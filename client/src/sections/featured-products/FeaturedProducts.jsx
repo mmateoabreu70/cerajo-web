@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import ProductCard from "../../components/product-card/ProductCard";
 import { http } from "../../lib/http";
-import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 import "./FeaturedProducts.css";
 import ProductCardSkeleton from "../../components/skeletons/product-card/ProductCardSkeleton";

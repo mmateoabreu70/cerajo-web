@@ -1,22 +1,19 @@
-import { Link, NavLink } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { Squash as Hamburger } from 'hamburger-react'
-import './Header.css';
+import { Link, NavLink, useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Squash as Hamburger } from "hamburger-react";
+import "./Header.css";
 import SearchBar from "../search-bar/SearchBar";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
-  
+
   const navIsActive = ({ isActive }) => isActive ? "nav-active" : "";
 
-  // Cierra el menú al cambiar de ruta
   useEffect(() => {
     setOpen(false);
   }, [location.pathname]);
 
-  // Bloquea scroll del body cuando el menú móvil está abierto
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";
     return () => (document.body.style.overflow = "");
@@ -32,12 +29,12 @@ export default function Header() {
 
   return (
     <header>
-      <div className='wrapper header-content'>
+      <div className="wrapper header-content">
         <Link className="home-link" to="/">
           <div className="brand-container">
-            <img src="/cerajo-icon.png" alt="Cerajo Logo" class="brand-logo" />
+            <img src="/cerajo-icon.png" alt="Cerajo Logo" className="brand-logo" />
 
-            <div class="brand-text">
+            <div className="brand-text">
               <h1>CERAJO</h1>
               <span>Calidad en cada pisada</span>
             </div>
@@ -45,20 +42,18 @@ export default function Header() {
         </Link>
 
         <SearchBar className="header-search" />
-        
+
         <div className="hamburger-wrap">
           <Hamburger toggled={open} toggle={setOpen} size={30} />
         </div>
 
-         <nav className={`nav-links ${open ? "is-open" : ""}`}>
+        <nav className={`nav-links ${open ? "is-open" : ""}`}>
           <NavLink className={navIsActive} to="/">Inicio</NavLink>
           <NavLink className={navIsActive} to="/productos">Productos</NavLink>
           <NavLink className={navIsActive} to="/contacto">Contacto</NavLink>
-          <NavLink className="offer-link" to="/ofertas">OFERTAS!</NavLink>
-          {/* <button className="search-button"><FontAwesomeIcon icon={faMagnifyingGlass} /></button> */}
+          <NavLink className="offer-link" to="/ofertas?discount=1">OFERTAS!</NavLink>
         </nav>
 
-        {/* Overlay para cerrar al tocar fuera */}
         {open && <div className="nav-overlay" onClick={() => setOpen(false)} />}
       </div>
     </header>
